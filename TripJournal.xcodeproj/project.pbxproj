@@ -30,6 +30,36 @@
 		07BCBA8F2B5D7EC500C6F687 /* MediaCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCBA8E2B5D7EC500C6F687 /* MediaCarousel.swift */; };
 		07F6695D2B589A1E002F8D18 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6695C2B589A1E002F8D18 /* AddButton.swift */; };
 		3B65A1522EC5C7C800C0FBE9 /* LiveJournalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B65A1512EC5C7C700C0FBE9 /* LiveJournalService.swift */; };
+		3B65A1762EC5F85500C0FBE9 /* docker-compose.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1712EC5F85500C0FBE9 /* docker-compose.yaml */; };
+		3B65A1772EC5F85500C0FBE9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1702EC5F85500C0FBE9 /* .gitignore */; };
+		3B65A1782EC5F85500C0FBE9 /* utils.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1662EC5F85500C0FBE9 /* utils.py */; };
+		3B65A1792EC5F85500C0FBE9 /* auth.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1692EC5F85500C0FBE9 /* auth.py */; };
+		3B65A17A2EC5F85500C0FBE9 /* media.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1562EC5F85500C0FBE9 /* media.py */; };
+		3B65A17B2EC5F85500C0FBE9 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A15A2EC5F85500C0FBE9 /* __init__.py */; };
+		3B65A17C2EC5F85500C0FBE9 /* media_routes.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A15D2EC5F85500C0FBE9 /* media_routes.py */; };
+		3B65A17D2EC5F85500C0FBE9 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A16F2EC5F85500C0FBE9 /* .env */; };
+		3B65A17E2EC5F85500C0FBE9 /* location.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1552EC5F85500C0FBE9 /* location.py */; };
+		3B65A17F2EC5F85500C0FBE9 /* event.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1622EC5F85500C0FBE9 /* event.py */; };
+		3B65A1802EC5F85500C0FBE9 /* trip.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1652EC5F85500C0FBE9 /* trip.py */; };
+		3B65A1812EC5F85500C0FBE9 /* event.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1542EC5F85500C0FBE9 /* event.py */; };
+		3B65A1822EC5F85500C0FBE9 /* auth_routes.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A15B2EC5F85500C0FBE9 /* auth_routes.py */; };
+		3B65A1832EC5F85500C0FBE9 /* utils.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A16C2EC5F85500C0FBE9 /* utils.py */; };
+		3B65A1842EC5F85500C0FBE9 /* trip_routes.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A15E2EC5F85500C0FBE9 /* trip_routes.py */; };
+		3B65A1852EC5F85500C0FBE9 /* .dockerignore in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A16E2EC5F85500C0FBE9 /* .dockerignore */; };
+		3B65A1862EC5F85500C0FBE9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1732EC5F85500C0FBE9 /* README.md */; };
+		3B65A1872EC5F85500C0FBE9 /* media.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1642EC5F85500C0FBE9 /* media.py */; };
+		3B65A1882EC5F85500C0FBE9 /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A16B2EC5F85500C0FBE9 /* main.py */; };
+		3B65A1892EC5F85500C0FBE9 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1682EC5F85500C0FBE9 /* __init__.py */; };
+		3B65A18A2EC5F85500C0FBE9 /* user.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1582EC5F85500C0FBE9 /* user.py */; };
+		3B65A18B2EC5F85500C0FBE9 /* trip.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1572EC5F85500C0FBE9 /* trip.py */; };
+		3B65A18C2EC5F85500C0FBE9 /* database.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A16A2EC5F85500C0FBE9 /* database.py */; };
+		3B65A18D2EC5F85500C0FBE9 /* location.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1632EC5F85500C0FBE9 /* location.py */; };
+		3B65A18E2EC5F85500C0FBE9 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1602EC5F85500C0FBE9 /* __init__.py */; };
+		3B65A18F2EC5F85500C0FBE9 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1532EC5F85500C0FBE9 /* __init__.py */; };
+		3B65A1902EC5F85500C0FBE9 /* requirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1742EC5F85500C0FBE9 /* requirements.txt */; };
+		3B65A1912EC5F85500C0FBE9 /* Dockerfile in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1722EC5F85500C0FBE9 /* Dockerfile */; };
+		3B65A1922EC5F85500C0FBE9 /* event_routes.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A15C2EC5F85500C0FBE9 /* event_routes.py */; };
+		3B65A1932EC5F85500C0FBE9 /* auth.py in Resources */ = {isa = PBXBuildFile; fileRef = 3B65A1612EC5F85500C0FBE9 /* auth.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +87,36 @@
 		07BCBA8E2B5D7EC500C6F687 /* MediaCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCarousel.swift; sourceTree = "<group>"; };
 		07F6695C2B589A1E002F8D18 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
 		3B65A1512EC5C7C700C0FBE9 /* LiveJournalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveJournalService.swift; sourceTree = "<group>"; };
+		3B65A1532EC5F85500C0FBE9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		3B65A1542EC5F85500C0FBE9 /* event.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = event.py; sourceTree = "<group>"; };
+		3B65A1552EC5F85500C0FBE9 /* location.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = location.py; sourceTree = "<group>"; };
+		3B65A1562EC5F85500C0FBE9 /* media.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = media.py; sourceTree = "<group>"; };
+		3B65A1572EC5F85500C0FBE9 /* trip.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = trip.py; sourceTree = "<group>"; };
+		3B65A1582EC5F85500C0FBE9 /* user.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = user.py; sourceTree = "<group>"; };
+		3B65A15A2EC5F85500C0FBE9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		3B65A15B2EC5F85500C0FBE9 /* auth_routes.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = auth_routes.py; sourceTree = "<group>"; };
+		3B65A15C2EC5F85500C0FBE9 /* event_routes.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = event_routes.py; sourceTree = "<group>"; };
+		3B65A15D2EC5F85500C0FBE9 /* media_routes.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = media_routes.py; sourceTree = "<group>"; };
+		3B65A15E2EC5F85500C0FBE9 /* trip_routes.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = trip_routes.py; sourceTree = "<group>"; };
+		3B65A1602EC5F85500C0FBE9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		3B65A1612EC5F85500C0FBE9 /* auth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = auth.py; sourceTree = "<group>"; };
+		3B65A1622EC5F85500C0FBE9 /* event.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = event.py; sourceTree = "<group>"; };
+		3B65A1632EC5F85500C0FBE9 /* location.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = location.py; sourceTree = "<group>"; };
+		3B65A1642EC5F85500C0FBE9 /* media.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = media.py; sourceTree = "<group>"; };
+		3B65A1652EC5F85500C0FBE9 /* trip.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = trip.py; sourceTree = "<group>"; };
+		3B65A1662EC5F85500C0FBE9 /* utils.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = utils.py; sourceTree = "<group>"; };
+		3B65A1682EC5F85500C0FBE9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		3B65A1692EC5F85500C0FBE9 /* auth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = auth.py; sourceTree = "<group>"; };
+		3B65A16A2EC5F85500C0FBE9 /* database.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = database.py; sourceTree = "<group>"; };
+		3B65A16B2EC5F85500C0FBE9 /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		3B65A16C2EC5F85500C0FBE9 /* utils.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = utils.py; sourceTree = "<group>"; };
+		3B65A16E2EC5F85500C0FBE9 /* .dockerignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .dockerignore; sourceTree = "<group>"; };
+		3B65A16F2EC5F85500C0FBE9 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+		3B65A1702EC5F85500C0FBE9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3B65A1712EC5F85500C0FBE9 /* docker-compose.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "docker-compose.yaml"; sourceTree = "<group>"; };
+		3B65A1722EC5F85500C0FBE9 /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
+		3B65A1732EC5F85500C0FBE9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B65A1742EC5F85500C0FBE9 /* requirements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +149,7 @@
 		075A90E12B446996009A1DCB /* TripJournal */ = {
 			isa = PBXGroup;
 			children = (
+				3B65A1752EC5F85500C0FBE9 /* TripJournalAPI */,
 				075A90E22B446996009A1DCB /* App.swift */,
 				075A90F02B4469C0009A1DCB /* RootView.swift */,
 				075A90E62B446997009A1DCB /* Assets.xcassets */,
@@ -172,6 +233,75 @@
 			path = LocationPicker;
 			sourceTree = "<group>";
 		};
+		3B65A1592EC5F85500C0FBE9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				3B65A1532EC5F85500C0FBE9 /* __init__.py */,
+				3B65A1542EC5F85500C0FBE9 /* event.py */,
+				3B65A1552EC5F85500C0FBE9 /* location.py */,
+				3B65A1562EC5F85500C0FBE9 /* media.py */,
+				3B65A1572EC5F85500C0FBE9 /* trip.py */,
+				3B65A1582EC5F85500C0FBE9 /* user.py */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		3B65A15F2EC5F85500C0FBE9 /* routes */ = {
+			isa = PBXGroup;
+			children = (
+				3B65A15A2EC5F85500C0FBE9 /* __init__.py */,
+				3B65A15B2EC5F85500C0FBE9 /* auth_routes.py */,
+				3B65A15C2EC5F85500C0FBE9 /* event_routes.py */,
+				3B65A15D2EC5F85500C0FBE9 /* media_routes.py */,
+				3B65A15E2EC5F85500C0FBE9 /* trip_routes.py */,
+			);
+			path = routes;
+			sourceTree = "<group>";
+		};
+		3B65A1672EC5F85500C0FBE9 /* schemas */ = {
+			isa = PBXGroup;
+			children = (
+				3B65A1602EC5F85500C0FBE9 /* __init__.py */,
+				3B65A1612EC5F85500C0FBE9 /* auth.py */,
+				3B65A1622EC5F85500C0FBE9 /* event.py */,
+				3B65A1632EC5F85500C0FBE9 /* location.py */,
+				3B65A1642EC5F85500C0FBE9 /* media.py */,
+				3B65A1652EC5F85500C0FBE9 /* trip.py */,
+				3B65A1662EC5F85500C0FBE9 /* utils.py */,
+			);
+			path = schemas;
+			sourceTree = "<group>";
+		};
+		3B65A16D2EC5F85500C0FBE9 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				3B65A1592EC5F85500C0FBE9 /* models */,
+				3B65A15F2EC5F85500C0FBE9 /* routes */,
+				3B65A1672EC5F85500C0FBE9 /* schemas */,
+				3B65A1682EC5F85500C0FBE9 /* __init__.py */,
+				3B65A1692EC5F85500C0FBE9 /* auth.py */,
+				3B65A16A2EC5F85500C0FBE9 /* database.py */,
+				3B65A16B2EC5F85500C0FBE9 /* main.py */,
+				3B65A16C2EC5F85500C0FBE9 /* utils.py */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		3B65A1752EC5F85500C0FBE9 /* TripJournalAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3B65A16D2EC5F85500C0FBE9 /* app */,
+				3B65A16E2EC5F85500C0FBE9 /* .dockerignore */,
+				3B65A16F2EC5F85500C0FBE9 /* .env */,
+				3B65A1702EC5F85500C0FBE9 /* .gitignore */,
+				3B65A1712EC5F85500C0FBE9 /* docker-compose.yaml */,
+				3B65A1722EC5F85500C0FBE9 /* Dockerfile */,
+				3B65A1732EC5F85500C0FBE9 /* README.md */,
+				3B65A1742EC5F85500C0FBE9 /* requirements.txt */,
+			);
+			path = TripJournalAPI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +361,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				075A90E72B446997009A1DCB /* Assets.xcassets in Resources */,
+				3B65A1762EC5F85500C0FBE9 /* docker-compose.yaml in Resources */,
+				3B65A1772EC5F85500C0FBE9 /* .gitignore in Resources */,
+				3B65A1782EC5F85500C0FBE9 /* utils.py in Resources */,
+				3B65A1792EC5F85500C0FBE9 /* auth.py in Resources */,
+				3B65A17A2EC5F85500C0FBE9 /* media.py in Resources */,
+				3B65A17B2EC5F85500C0FBE9 /* __init__.py in Resources */,
+				3B65A17C2EC5F85500C0FBE9 /* media_routes.py in Resources */,
+				3B65A17D2EC5F85500C0FBE9 /* .env in Resources */,
+				3B65A17E2EC5F85500C0FBE9 /* location.py in Resources */,
+				3B65A17F2EC5F85500C0FBE9 /* event.py in Resources */,
+				3B65A1802EC5F85500C0FBE9 /* trip.py in Resources */,
+				3B65A1812EC5F85500C0FBE9 /* event.py in Resources */,
+				3B65A1822EC5F85500C0FBE9 /* auth_routes.py in Resources */,
+				3B65A1832EC5F85500C0FBE9 /* utils.py in Resources */,
+				3B65A1842EC5F85500C0FBE9 /* trip_routes.py in Resources */,
+				3B65A1852EC5F85500C0FBE9 /* .dockerignore in Resources */,
+				3B65A1862EC5F85500C0FBE9 /* README.md in Resources */,
+				3B65A1872EC5F85500C0FBE9 /* media.py in Resources */,
+				3B65A1882EC5F85500C0FBE9 /* main.py in Resources */,
+				3B65A1892EC5F85500C0FBE9 /* __init__.py in Resources */,
+				3B65A18A2EC5F85500C0FBE9 /* user.py in Resources */,
+				3B65A18B2EC5F85500C0FBE9 /* trip.py in Resources */,
+				3B65A18C2EC5F85500C0FBE9 /* database.py in Resources */,
+				3B65A18D2EC5F85500C0FBE9 /* location.py in Resources */,
+				3B65A18E2EC5F85500C0FBE9 /* __init__.py in Resources */,
+				3B65A18F2EC5F85500C0FBE9 /* __init__.py in Resources */,
+				3B65A1902EC5F85500C0FBE9 /* requirements.txt in Resources */,
+				3B65A1912EC5F85500C0FBE9 /* Dockerfile in Resources */,
+				3B65A1922EC5F85500C0FBE9 /* event_routes.py in Resources */,
+				3B65A1932EC5F85500C0FBE9 /* auth.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
